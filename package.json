@@ -1,0 +1,29 @@
+{
+  "name": "convertipeso",
+  "version": "0.1.0",
+  "description": "convertidor de peso de libras a kilos",
+  "main": "dist/src/convertipeso.js",
+  "scripts": {
+    "build": "babel src/convertipeso.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jonathanludena/convertiPeso.git"
+  },
+  "keywords": [
+    "convertidor",
+    "libras",
+    "kilos",
+    "peso"
+  ],
+  "author": "Jonathan Ludeña <jonathanludenai@gmail.com> (https://twitter.com/jonathanludena)",
+  "license": "MIT",
+  "homepage": "https://github.com/jonathanludena/convertiPeso#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
